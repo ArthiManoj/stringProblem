@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.apple.test.apple.StringManipulationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.036 sec <<< FAILURE! - in com.apple.test.apple.StringManipulationTest
+testStringManipulation3 on testStringManipulation3(com.apple.test.apple.StringManipulationTest)(com.apple.test.apple.StringManipulationTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+org.junit.ComparisonFailure: String does not match expected:<Java[ is a programming ]language> but was:<Java[xisxaxprogrammingx]language>
+	at com.apple.test.apple.StringManipulationTest.testStringManipulation3(StringManipulationTest.java:37)
+

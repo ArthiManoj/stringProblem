@@ -1,0 +1,46 @@
+Goals of the Project:
+
+Given a String and a Character, remove all instances of the Character in the String
+
+Solve this two ways:
+1. Iterate through the String, one character at a time
+2. Find a method in the String class that can solve this in one line
+
+Write methods for each solution.
+
+Afterwards, write a TestNG or JUnit class for each solution which tests these methods.
+Include both positive and negative cases for validations.
+
+Tools Used:
+
+Java: Programming language
+JUnit: Unit testing framework for java
+Git: To save and manage test scripts on version updates and changes.
+Maven: Build automation tool primarily used for java projects.It describes how software is built and its dependencies.
+JUnit SureFire: Used to generate test reports where team members can act accordingly.
+Eclipse IDE for developing the Framework
+
+Test Cases:
+
+Input values: 
+
+String : Javaxisxaxprogrammingxlanguage
+Character : x
+
+Expected result: Java is a programming language
+
+1. Test the function : iterate(String stringInput, Character charInput) from class name : StringManipulaion.java
+   The function which iterate through the String, one character at a time
+   - pass the string and the character as a input
+   - Assert if the expected value and output value from the function matches
+   
+2. Test the function : stringFunction(String stringInput, Character charInput) from class name : StringManipulaion.java
+   The function which uses a method from String class that can solve this in one line
+   - pass the string and the character as a input
+   - Assert if the expected value and output value from the function matches
+   
+ 3. Negative test scenario  
+   - pass the string and a character as 'z'
+   - Assert if the expected value and output value from the function match
+    
+   
